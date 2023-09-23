@@ -1,0 +1,98 @@
+
+.header {
+    font-family: "SanFrancisco";
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(181, 181, 181);
+    font-weight: bold;
+}
+
+body {
+    background-color: #fff;
+    border: 1px solid #e5e5ea;
+    border-radius: 0.25rem;
+    font-family: "SanFrancisco";
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    max-width: 1000px;
+    padding: .5rem .5rem 1rem .5rem;
+  }
+
+.chat-container {
+    width: auto;
+    height: 630px;
+    border: 1px solid #ccc;
+    margin: .5rem .5rem .5rem .5rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.message {
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 1.15rem;
+    line-height: 1.25;
+    max-width: 75%;
+    padding: 0.7rem 0.9rem;
+    position: relative;
+    word-wrap: break-word;
+    bottom: -0.1rem;
+}
+
+.user-message {
+    align-self: flex-end;
+    background-color: #248bf5;
+    color: #fff;
+    width: fit-content;
+    right: 20px;
+}
+
+.bot-message {
+    align-items: flex-start;
+    background-color: #e5e5ea;
+    color: #000;
+    width: fit-content;
+    left: 20px;
+}
+
+.input-container {
+    margin-top: 10px;
+    padding-left: 7px;
+    display: flex;
+}
+
+input[type = "icon"] {
+    font-size: 10px;
+}
+
+input[type = "text"] {
+    width: 900px;
+    overflow-x: visible;
+    height: 25px;
+    padding: 5px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+}
+
+input[type = "text"]::placeholder {
+    color: rgb(207, 207, 207);
+}
+
+input[type = "submit"] {
+    padding: 5px 25px;
+    margin-left: 1em;
+    margin-right: .8em;
+    border-radius: 1.15rem;
+    font-size: 1.1rem;
+    background-color: #ccc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input[type = "submit"]:hover {
+    background-color: #cd0808;
+}
