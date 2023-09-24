@@ -35,7 +35,7 @@ def ingest_data() :
         texts = text_splitter.split_text(new_documents)
         
         embeddings = OpenAIEmbeddings()
-        vectorstore = FAISS.from_texts(texts, embeddings)
+        vectorstore = FAISS.from_texts(texts, embeddings, distance_strategy = "MAX_INNER_PRODUCT")
 
         return vectorstore
 
