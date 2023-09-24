@@ -1,4 +1,4 @@
-# Chatbot_with_college_rules_documents
+# Chatbot with college rules documents
 
 1. You can start with entering 'python app.py' into your cmd window (which should be located in your right folder path).
 2. A few seconds later, link will pop up on your cmd window.
