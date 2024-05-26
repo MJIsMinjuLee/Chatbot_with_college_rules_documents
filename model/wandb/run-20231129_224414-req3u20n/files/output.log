@@ -1,0 +1,4 @@
+[34m[1mwandb[39m[22m: Streaming LangChain activity to W&B at https://wandb.ai/usernameisminjulee/gpt-3.5-chatbot/runs/req3u20n
+[34m[1mwandb[39m[22m: `WandbTracer` is currently in beta.
+[34m[1mwandb[39m[22m: Please report any issues to https://github.com/wandb/wandb/issues with the tag `langchain`.
+근신은 학생의 출석상황, 학습태도 등을 종합적으로 평가하여 학생의 성적을 결정하는 것을 말합니다.

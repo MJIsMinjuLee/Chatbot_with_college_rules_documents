@@ -1,0 +1,7 @@
+[34m[1mwandb[39m[22m: Streaming LangChain activity to W&B at https://wandb.ai/usernameisminjulee/gpt-3.5-chatbot/runs/gp9agsxy
+[34m[1mwandb[39m[22m: `WandbTracer` is currently in beta.
+[34m[1mwandb[39m[22m: Please report any issues to https://github.com/wandb/wandb/issues with the tag `langchain`.
+[1m> Entering new AgentExecutor chain...
+[32m[1m죄송합니다, 제가 도움을 드릴 수 있는 다른 문의가 있으신가요?
+[1m> Finished chain.
+127.0.0.1 - - [29/Nov/2023 21:12:35] "POST /process HTTP/1.1" 200 -

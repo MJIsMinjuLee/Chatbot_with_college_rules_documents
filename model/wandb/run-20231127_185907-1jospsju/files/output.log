@@ -1,0 +1,9 @@
+[34m[1mwandb[39m[22m: Streaming LangChain activity to W&B at https://wandb.ai/usernameisminjulee/gpt-3.5-chatbot/runs/1jospsju
+[34m[1mwandb[39m[22m: `WandbTracer` is currently in beta.
+[34m[1mwandb[39m[22m: Please report any issues to https://github.com/wandb/wandb/issues with the tag `langchain`.
+[1m> Entering new AgentExecutor chain...
+C:\Users\bruse\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\vectorstores\base.py:269: UserWarning: No relevant docs were retrieved using the relevance score threshold 0.5
+  warnings.warn(
+[32m[1mInvoking: `school_rules` with `장학금`
+[36m[1m[][32m제적되었을 경우에 장학금을 받을 수 있는지에 대한 정보는 제공되지 않았습니다. 추가적인 문의를 위해 해당 대학의 학사규정을 확인하시는 것이 좋습니다.
+[1m> Finished chain.

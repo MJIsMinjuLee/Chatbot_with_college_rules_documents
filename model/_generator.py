@@ -59,7 +59,8 @@ def generator(question) :
         tools = tools,
         memory = memory,
         verbose = True,
-        return_intermediate_steps = True
+        return_intermediate_steps = True,
+        max_iterations = 2, #Agent Observation-Thought 과정 횟수 제한
         )
 
     result = agent_executor({'input' : question})
@@ -71,3 +72,14 @@ def generator(question) :
         return memory
     
     return result['output']
+
+#실험 진행
+if __name__ == '__main__' :
+    #generator('공로상은 누구에게 수여하는가?')
+    #generator('포상의 종류에는 무엇이 있는가?')
+    #generator('생활관 종류는 무엇이 있는가?')
+    #generator('장학금은 이중으로 받을 수 있나?')
+    #generator('장학금의 수혜 기간은?')
+    #generator('신입생은 휴학 가능한가?')
+    #generator('정문의 주차장 운영 시간은?')
+    generator('징계의 종류 중에서 유기정학 이상의 징계는 무엇이 있는가?') 

@@ -1,0 +1,28 @@
+2023-11-30 00:06:46,426 INFO    MainThread:28568 [wandb_setup.py:_flush():76] Current SDK version is 0.15.12
+2023-11-30 00:06:46,427 INFO    MainThread:28568 [wandb_setup.py:_flush():76] Configure stats pid to 28568
+2023-11-30 00:06:46,427 INFO    MainThread:28568 [wandb_setup.py:_flush():76] Loading settings from C:\Users\bruse\.config\wandb\settings
+2023-11-30 00:06:46,428 INFO    MainThread:28568 [wandb_setup.py:_flush():76] Loading settings from C:\Users\bruse\Downloads\서울과학기술대학교\캡스톤디자인\Chatbot_with_college_rules_documents\model\wandb\settings
+2023-11-30 00:06:46,428 INFO    MainThread:28568 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'gpt-3.5-chatbot'}
+2023-11-30 00:06:46,428 INFO    MainThread:28568 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-11-30 00:06:46,430 INFO    MainThread:28568 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'model\\_generator.py', 'program_abspath': 'C:\\Users\\bruse\\Downloads\\서울과학기술대학교\\캡스톤디자인\\Chatbot_with_college_rules_documents\\model\\_generator.py', 'program': 'C:\\Users\\bruse\\Downloads\\서울과학기술대학교\\캡스톤디자인\\Chatbot_with_college_rules_documents\\model\\_generator.py'}
+2023-11-30 00:06:46,432 INFO    MainThread:28568 [wandb_init.py:_log_setup():528] Logging user logs to C:\Users\bruse\Downloads\서울과학기술대학교\캡스톤디자인\Chatbot_with_college_rules_documents\model\wandb\run-20231130_000646-19zdpw2r\logs\debug.log
+2023-11-30 00:06:46,433 INFO    MainThread:28568 [wandb_init.py:_log_setup():529] Logging internal logs to C:\Users\bruse\Downloads\서울과학기술대학교\캡스톤디자인\Chatbot_with_college_rules_documents\model\wandb\run-20231130_000646-19zdpw2r\logs\debug-internal.log
+2023-11-30 00:06:46,433 INFO    MainThread:28568 [wandb_init.py:init():568] calling init triggers
+2023-11-30 00:06:46,433 INFO    MainThread:28568 [wandb_init.py:init():575] wandb.init called with sweep_config: {}
+config: {}
+2023-11-30 00:06:46,433 INFO    MainThread:28568 [wandb_init.py:init():618] starting backend
+2023-11-30 00:06:46,433 INFO    MainThread:28568 [wandb_init.py:init():622] setting up manager
+2023-11-30 00:06:46,441 INFO    MainThread:28568 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2023-11-30 00:06:46,448 INFO    MainThread:28568 [wandb_init.py:init():628] backend started and connected
+2023-11-30 00:06:46,460 INFO    MainThread:28568 [wandb_init.py:init():720] updated telemetry
+2023-11-30 00:06:46,616 INFO    MainThread:28568 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2023-11-30 00:06:47,589 INFO    MainThread:28568 [wandb_run.py:_on_init():2220] communicating current version
+2023-11-30 00:06:47,684 INFO    MainThread:28568 [wandb_run.py:_on_init():2229] got version response upgrade_message: "wandb version 0.16.0 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-11-30 00:06:47,685 INFO    MainThread:28568 [wandb_init.py:init():804] starting run threads in backend
+2023-11-30 00:06:48,141 INFO    MainThread:28568 [wandb_run.py:_console_start():2199] atexit reg
+2023-11-30 00:06:48,141 INFO    MainThread:28568 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2023-11-30 00:06:48,141 INFO    MainThread:28568 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2023-11-30 00:06:48,142 INFO    MainThread:28568 [wandb_run.py:_redirect():2144] Redirects installed.
+2023-11-30 00:06:48,142 INFO    MainThread:28568 [wandb_init.py:init():845] run started, returning control to user process
+2023-11-30 00:07:03,594 WARNING MsgRouterThr:28568 [router.py:message_loop():77] message_loop has been closed

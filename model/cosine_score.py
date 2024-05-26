@@ -2,10 +2,12 @@ import tiktoken
 import pandas as pd
 import openai
 from openai.embeddings_utils import cosine_similarity
+import matplotlib.pyplot as plt
 
 
 openai.api_key = '키입력'
 
+#def search_functions(user_query) :
 def search_functions(user_query, top_n = 3, pprint = True) :
     #csv 파일 불러와서 데이터프레임 형태로 변환
     texts_df = pd.read_csv('../docs/data_with_embeddings.csv')
@@ -25,6 +27,11 @@ def search_functions(user_query, top_n = 3, pprint = True) :
     embedding = embedding['data'][0]['embedding']
     texts_df['similarities'] = texts_df['text_embedding'].apply(lambda x: cosine_similarity(x, embedding))
     
+    #cosine_graph = pd.DataFrame()
+    #cosine_graph['cosine_score'] = texts_df['similarities']
+    #plt.hist(cosine_graph, bins = 50, range = [0, 1])
+    
+    #return plt.show()
     res = texts_df.sort_values('similarities', ascending = False).head(top_n)
 
     if pprint :
@@ -35,7 +42,8 @@ def search_functions(user_query, top_n = 3, pprint = True) :
 
     return res
 
-#res = search_functions('근신이란 무엇인가?', top_n = 4)
+#res = search_functions('공로상은 누구에게 수여하는가?')
+res = search_functions('학사경고', top_n = 4)
 
 def compare_encodings(example_string: str) -> None :
     print(f'\nExample string: "{example_string}"')

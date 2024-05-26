@@ -1,0 +1,180 @@
+2023-11-29 23:51:57,178 INFO    StreamThr :1596 [internal.py:wandb_internal():86] W&B internal server running at pid: 1596, started at: 2023-11-29 23:51:57.177112
+2023-11-29 23:51:57,181 DEBUG   HandlerThread:1596 [handler.py:handle_request():146] handle_request: status
+2023-11-29 23:51:57,192 INFO    WriterThread:1596 [datastore.py:open_for_write():85] open: C:\Users\bruse\Downloads\서울과학기술대학교\캡스톤디자인\Chatbot_with_college_rules_documents\model\wandb\run-20231129_235157-mb87ib4z\run-mb87ib4z.wandb
+2023-11-29 23:51:57,194 DEBUG   SenderThread:1596 [sender.py:send():380] send: header
+2023-11-29 23:51:57,396 DEBUG   SenderThread:1596 [sender.py:send():380] send: run
+2023-11-29 23:51:58,532 INFO    SenderThread:1596 [dir_watcher.py:__init__():211] watching files in: C:\Users\bruse\Downloads\서울과학기술대학교\캡스톤디자인\Chatbot_with_college_rules_documents\model\wandb\run-20231129_235157-mb87ib4z\files
+2023-11-29 23:51:58,532 INFO    SenderThread:1596 [sender.py:_start_run_threads():1122] run started: mb87ib4z with start time 1701269517.182096
+2023-11-29 23:51:58,646 DEBUG   HandlerThread:1596 [handler.py:handle_request():146] handle_request: check_version
+2023-11-29 23:51:58,647 DEBUG   SenderThread:1596 [sender.py:send_request():407] send_request: check_version
+2023-11-29 23:51:58,826 DEBUG   HandlerThread:1596 [handler.py:handle_request():146] handle_request: run_start
+2023-11-29 23:51:58,902 DEBUG   HandlerThread:1596 [system_info.py:__init__():32] System info init
+2023-11-29 23:51:58,902 DEBUG   HandlerThread:1596 [system_info.py:__init__():47] System info init done
+2023-11-29 23:51:58,902 INFO    HandlerThread:1596 [system_monitor.py:start():194] Starting system monitor
+2023-11-29 23:51:58,903 INFO    SystemMonitor:1596 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-11-29 23:51:58,903 INFO    HandlerThread:1596 [system_monitor.py:probe():214] Collecting system info
+2023-11-29 23:51:58,910 INFO    SystemMonitor:1596 [interfaces.py:start():190] Started cpu monitoring
+2023-11-29 23:51:58,916 DEBUG   HandlerThread:1596 [system_info.py:probe():196] Probing system
+2023-11-29 23:51:58,916 INFO    SystemMonitor:1596 [interfaces.py:start():190] Started disk monitoring
+2023-11-29 23:51:58,928 INFO    SystemMonitor:1596 [interfaces.py:start():190] Started memory monitoring
+2023-11-29 23:51:58,962 INFO    SystemMonitor:1596 [interfaces.py:start():190] Started network monitoring
+2023-11-29 23:51:58,999 DEBUG   HandlerThread:1596 [system_info.py:_probe_git():181] Probing git
+2023-11-29 23:51:59,298 DEBUG   HandlerThread:1596 [system_info.py:_probe_git():189] Probing git done
+2023-11-29 23:51:59,299 DEBUG   HandlerThread:1596 [system_info.py:probe():244] Probing system done
+2023-11-29 23:51:59,299 DEBUG   HandlerThread:1596 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.11.2', 'heartbeatAt': '2023-11-29T14:51:58.916402', 'startedAt': '2023-11-29T14:51:57.149930', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'C:\\Users\\bruse\\Downloads\\서울과학기술대학교\\캡스톤디자인\\Chatbot_with_college_rules_documents\\model\\_generator.py', 'codePathLocal': '_generator.py', 'codePath': 'model\\_generator.py', 'git': {'remote': 'https://github.com/MJIsMinjuLee/Chatbot_with_college_rules_documents.git', 'commit': '4251b111f82864fff9934a8d8705612dcea732c4'}, 'email': 'bruselee10@gmail.com', 'root': 'C:/Users/bruse/Downloads/서울과학기술대학교/캡스톤디자인/Chatbot_with_college_rules_documents', 'host': 'DESKTOP-1PRU88E', 'username': 'bruse', 'executable': 'C:\\Users\\bruse\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1400.0, 'min': 0.0, 'max': 1800.0}, 'cpu_freq_per_core': [{'current': 1600.0, 'min': 0.0, 'max': 1800.0}], 'disk': {'/': {'total': 232.84472274780273, 'used': 158.34633255004883}}, 'memory': {'total': 15.798858642578125}}
+2023-11-29 23:51:59,299 INFO    HandlerThread:1596 [system_monitor.py:probe():224] Finished collecting system info
+2023-11-29 23:51:59,300 INFO    HandlerThread:1596 [system_monitor.py:probe():227] Publishing system info
+2023-11-29 23:51:59,300 DEBUG   HandlerThread:1596 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-11-29 23:51:59,301 DEBUG   HandlerThread:1596 [system_info.py:_save_pip():68] Saving pip packages done
+2023-11-29 23:51:59,303 INFO    HandlerThread:1596 [system_monitor.py:probe():229] Finished publishing system info
+2023-11-29 23:51:59,320 DEBUG   SenderThread:1596 [sender.py:send():380] send: files
+2023-11-29 23:51:59,320 INFO    SenderThread:1596 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-11-29 23:51:59,323 DEBUG   HandlerThread:1596 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-29 23:51:59,324 DEBUG   SenderThread:1596 [sender.py:send_request():407] send_request: stop_status
+2023-11-29 23:51:59,327 DEBUG   HandlerThread:1596 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-29 23:51:59,549 INFO    Thread-16 :1596 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\bruse\Downloads\서울과학기술대학교\캡스톤디자인\Chatbot_with_college_rules_documents\model\wandb\run-20231129_235157-mb87ib4z\files\requirements.txt
+2023-11-29 23:51:59,550 INFO    Thread-16 :1596 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\bruse\Downloads\서울과학기술대학교\캡스톤디자인\Chatbot_with_college_rules_documents\model\wandb\run-20231129_235157-mb87ib4z\files\wandb-metadata.json
+2023-11-29 23:51:59,724 DEBUG   SenderThread:1596 [sender.py:send():380] send: telemetry
+2023-11-29 23:51:59,730 DEBUG   SenderThread:1596 [sender.py:send():380] send: telemetry
+2023-11-29 23:52:00,437 INFO    wandb-upload_0:1596 [upload_job.py:push():131] Uploaded file C:\Users\bruse\AppData\Local\Temp\tmp_1jzv08uwandb\7j2idwbz-wandb-metadata.json
+2023-11-29 23:52:00,563 INFO    Thread-16 :1596 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\bruse\Downloads\서울과학기술대학교\캡스톤디자인\Chatbot_with_college_rules_documents\model\wandb\run-20231129_235157-mb87ib4z\files\output.log
+2023-11-29 23:52:02,592 INFO    Thread-16 :1596 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\bruse\Downloads\서울과학기술대학교\캡스톤디자인\Chatbot_with_college_rules_documents\model\wandb\run-20231129_235157-mb87ib4z\files\output.log
+2023-11-29 23:52:02,793 DEBUG   HandlerThread:1596 [handler.py:handle_request():146] handle_request: status_report
+2023-11-29 23:52:04,622 INFO    Thread-16 :1596 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\bruse\Downloads\서울과학기술대학교\캡스톤디자인\Chatbot_with_college_rules_documents\model\wandb\run-20231129_235157-mb87ib4z\files\output.log
+2023-11-29 23:52:04,900 DEBUG   HandlerThread:1596 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-29 23:52:04,905 DEBUG   SenderThread:1596 [sender.py:send():380] send: history
+2023-11-29 23:52:04,906 DEBUG   SenderThread:1596 [sender.py:send_request():407] send_request: summary_record
+2023-11-29 23:52:04,908 INFO    SenderThread:1596 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-29 23:52:04,909 DEBUG   SenderThread:1596 [sender.py:send():380] send: exit
+2023-11-29 23:52:04,909 INFO    SenderThread:1596 [sender.py:send_exit():585] handling exit code: 0
+2023-11-29 23:52:04,910 INFO    SenderThread:1596 [sender.py:send_exit():587] handling runtime: 6
+2023-11-29 23:52:04,911 INFO    SenderThread:1596 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-29 23:52:04,912 INFO    SenderThread:1596 [sender.py:send_exit():593] send defer
+2023-11-29 23:52:04,913 DEBUG   HandlerThread:1596 [handler.py:handle_request():146] handle_request: defer
+2023-11-29 23:52:04,913 INFO    HandlerThread:1596 [handler.py:handle_request_defer():172] handle defer: 0
+2023-11-29 23:52:04,913 DEBUG   SenderThread:1596 [sender.py:send_request():407] send_request: defer
+2023-11-29 23:52:04,913 INFO    SenderThread:1596 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-11-29 23:52:04,913 INFO    SenderThread:1596 [sender.py:transition_state():613] send defer: 1
+2023-11-29 23:52:04,913 DEBUG   HandlerThread:1596 [handler.py:handle_request():146] handle_request: defer
+2023-11-29 23:52:04,914 INFO    HandlerThread:1596 [handler.py:handle_request_defer():172] handle defer: 1
+2023-11-29 23:52:04,914 DEBUG   SenderThread:1596 [sender.py:send_request():407] send_request: defer
+2023-11-29 23:52:04,914 INFO    SenderThread:1596 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-11-29 23:52:04,914 INFO    SenderThread:1596 [sender.py:transition_state():613] send defer: 2
+2023-11-29 23:52:04,914 DEBUG   HandlerThread:1596 [handler.py:handle_request():146] handle_request: defer
+2023-11-29 23:52:04,915 INFO    HandlerThread:1596 [handler.py:handle_request_defer():172] handle defer: 2
+2023-11-29 23:52:04,915 INFO    HandlerThread:1596 [system_monitor.py:finish():203] Stopping system monitor
+2023-11-29 23:52:04,915 DEBUG   SystemMonitor:1596 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-11-29 23:52:04,916 DEBUG   SystemMonitor:1596 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-11-29 23:52:04,916 INFO    HandlerThread:1596 [interfaces.py:finish():202] Joined cpu monitor
+2023-11-29 23:52:04,916 DEBUG   SystemMonitor:1596 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-11-29 23:52:04,916 INFO    HandlerThread:1596 [interfaces.py:finish():202] Joined disk monitor
+2023-11-29 23:52:04,917 INFO    HandlerThread:1596 [interfaces.py:finish():202] Joined memory monitor
+2023-11-29 23:52:04,917 INFO    HandlerThread:1596 [interfaces.py:finish():202] Joined network monitor
+2023-11-29 23:52:04,918 DEBUG   SenderThread:1596 [sender.py:send_request():407] send_request: defer
+2023-11-29 23:52:04,918 INFO    SenderThread:1596 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-11-29 23:52:04,918 INFO    SenderThread:1596 [sender.py:transition_state():613] send defer: 3
+2023-11-29 23:52:04,918 DEBUG   SenderThread:1596 [sender.py:send():380] send: stats
+2023-11-29 23:52:04,918 DEBUG   HandlerThread:1596 [handler.py:handle_request():146] handle_request: defer
+2023-11-29 23:52:04,919 INFO    HandlerThread:1596 [handler.py:handle_request_defer():172] handle defer: 3
+2023-11-29 23:52:04,919 DEBUG   SenderThread:1596 [sender.py:send_request():407] send_request: defer
+2023-11-29 23:52:04,919 INFO    SenderThread:1596 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-11-29 23:52:04,919 INFO    SenderThread:1596 [sender.py:transition_state():613] send defer: 4
+2023-11-29 23:52:04,919 DEBUG   HandlerThread:1596 [handler.py:handle_request():146] handle_request: defer
+2023-11-29 23:52:04,919 INFO    HandlerThread:1596 [handler.py:handle_request_defer():172] handle defer: 4
+2023-11-29 23:52:04,920 DEBUG   SenderThread:1596 [sender.py:send_request():407] send_request: defer
+2023-11-29 23:52:04,920 INFO    SenderThread:1596 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-11-29 23:52:04,920 INFO    SenderThread:1596 [sender.py:transition_state():613] send defer: 5
+2023-11-29 23:52:04,920 DEBUG   HandlerThread:1596 [handler.py:handle_request():146] handle_request: defer
+2023-11-29 23:52:04,920 INFO    HandlerThread:1596 [handler.py:handle_request_defer():172] handle defer: 5
+2023-11-29 23:52:04,921 DEBUG   SenderThread:1596 [sender.py:send():380] send: summary
+2023-11-29 23:52:04,923 INFO    SenderThread:1596 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-29 23:52:04,925 DEBUG   SenderThread:1596 [sender.py:send_request():407] send_request: defer
+2023-11-29 23:52:04,925 INFO    SenderThread:1596 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-11-29 23:52:04,925 INFO    SenderThread:1596 [sender.py:transition_state():613] send defer: 6
+2023-11-29 23:52:04,925 DEBUG   HandlerThread:1596 [handler.py:handle_request():146] handle_request: defer
+2023-11-29 23:52:04,925 INFO    HandlerThread:1596 [handler.py:handle_request_defer():172] handle defer: 6
+2023-11-29 23:52:04,926 DEBUG   SenderThread:1596 [sender.py:send_request():407] send_request: defer
+2023-11-29 23:52:04,926 INFO    SenderThread:1596 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-11-29 23:52:04,933 DEBUG   HandlerThread:1596 [handler.py:handle_request():146] handle_request: status_report
+2023-11-29 23:52:05,353 INFO    SenderThread:1596 [sender.py:transition_state():613] send defer: 7
+2023-11-29 23:52:05,354 DEBUG   HandlerThread:1596 [handler.py:handle_request():146] handle_request: defer
+2023-11-29 23:52:05,354 INFO    HandlerThread:1596 [handler.py:handle_request_defer():172] handle defer: 7
+2023-11-29 23:52:05,355 DEBUG   SenderThread:1596 [sender.py:send_request():407] send_request: defer
+2023-11-29 23:52:05,355 INFO    SenderThread:1596 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-11-29 23:52:05,625 INFO    Thread-16 :1596 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\bruse\Downloads\서울과학기술대학교\캡스톤디자인\Chatbot_with_college_rules_documents\model\wandb\run-20231129_235157-mb87ib4z\files\config.yaml
+2023-11-29 23:52:05,626 INFO    Thread-16 :1596 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\bruse\Downloads\서울과학기술대학교\캡스톤디자인\Chatbot_with_college_rules_documents\model\wandb\run-20231129_235157-mb87ib4z\files\wandb-summary.json
+2023-11-29 23:52:05,768 INFO    SenderThread:1596 [sender.py:transition_state():613] send defer: 8
+2023-11-29 23:52:05,768 DEBUG   HandlerThread:1596 [handler.py:handle_request():146] handle_request: defer
+2023-11-29 23:52:05,769 INFO    HandlerThread:1596 [handler.py:handle_request_defer():172] handle defer: 8
+2023-11-29 23:52:05,769 DEBUG   SenderThread:1596 [sender.py:send_request():407] send_request: defer
+2023-11-29 23:52:05,769 INFO    SenderThread:1596 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-11-29 23:52:05,769 INFO    SenderThread:1596 [job_builder.py:build():281] Attempting to build job artifact
+2023-11-29 23:52:05,771 INFO    SenderThread:1596 [job_builder.py:_get_source_type():393] is repo sourced job
+2023-11-29 23:52:05,789 INFO    SenderThread:1596 [job_builder.py:build():369] adding wandb-job metadata file
+2023-11-29 23:52:05,804 INFO    SenderThread:1596 [sender.py:transition_state():613] send defer: 9
+2023-11-29 23:52:05,805 DEBUG   SenderThread:1596 [sender.py:send():380] send: artifact
+2023-11-29 23:52:05,805 DEBUG   HandlerThread:1596 [handler.py:handle_request():146] handle_request: defer
+2023-11-29 23:52:05,806 INFO    HandlerThread:1596 [handler.py:handle_request_defer():172] handle defer: 9
+2023-11-29 23:52:05,918 DEBUG   HandlerThread:1596 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-29 23:52:06,636 INFO    Thread-16 :1596 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\bruse\Downloads\서울과학기술대학교\캡스톤디자인\Chatbot_with_college_rules_documents\model\wandb\run-20231129_235157-mb87ib4z\files\output.log
+2023-11-29 23:52:07,616 INFO    SenderThread:1596 [sender.py:send_artifact():1456] sent artifact job-https___github.com_MJIsMinjuLee_Chatbot_with_college_rules_documents.git_model__generator.py - {'id': 'QXJ0aWZhY3Q6NjExNjgwOTU3', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEwODYwNDkzMw==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NjExNjgwOTU3', 'versionIndex': 0}}}
+2023-11-29 23:52:07,616 DEBUG   SenderThread:1596 [sender.py:send_request():407] send_request: defer
+2023-11-29 23:52:07,617 INFO    SenderThread:1596 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-11-29 23:52:07,617 INFO    SenderThread:1596 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-11-29 23:52:07,650 INFO    SenderThread:1596 [dir_watcher.py:finish():388] scan: C:\Users\bruse\Downloads\서울과학기술대학교\캡스톤디자인\Chatbot_with_college_rules_documents\model\wandb\run-20231129_235157-mb87ib4z\files
+2023-11-29 23:52:07,651 INFO    SenderThread:1596 [dir_watcher.py:finish():402] scan save: C:\Users\bruse\Downloads\서울과학기술대학교\캡스톤디자인\Chatbot_with_college_rules_documents\model\wandb\run-20231129_235157-mb87ib4z\files\config.yaml config.yaml
+2023-11-29 23:52:07,652 INFO    SenderThread:1596 [dir_watcher.py:finish():402] scan save: C:\Users\bruse\Downloads\서울과학기술대학교\캡스톤디자인\Chatbot_with_college_rules_documents\model\wandb\run-20231129_235157-mb87ib4z\files\output.log output.log
+2023-11-29 23:52:07,659 INFO    SenderThread:1596 [dir_watcher.py:finish():402] scan save: C:\Users\bruse\Downloads\서울과학기술대학교\캡스톤디자인\Chatbot_with_college_rules_documents\model\wandb\run-20231129_235157-mb87ib4z\files\requirements.txt requirements.txt
+2023-11-29 23:52:07,670 INFO    SenderThread:1596 [dir_watcher.py:finish():402] scan save: C:\Users\bruse\Downloads\서울과학기술대학교\캡스톤디자인\Chatbot_with_college_rules_documents\model\wandb\run-20231129_235157-mb87ib4z\files\wandb-metadata.json wandb-metadata.json
+2023-11-29 23:52:07,670 INFO    SenderThread:1596 [dir_watcher.py:finish():402] scan save: C:\Users\bruse\Downloads\서울과학기술대학교\캡스톤디자인\Chatbot_with_college_rules_documents\model\wandb\run-20231129_235157-mb87ib4z\files\wandb-summary.json wandb-summary.json
+2023-11-29 23:52:07,676 INFO    SenderThread:1596 [sender.py:transition_state():613] send defer: 10
+2023-11-29 23:52:07,677 DEBUG   SenderThread:1596 [sender.py:send_request():407] send_request: poll_exit
+2023-11-29 23:52:07,677 DEBUG   HandlerThread:1596 [handler.py:handle_request():146] handle_request: defer
+2023-11-29 23:52:07,679 INFO    HandlerThread:1596 [handler.py:handle_request_defer():172] handle defer: 10
+2023-11-29 23:52:07,687 DEBUG   SenderThread:1596 [sender.py:send_request():407] send_request: defer
+2023-11-29 23:52:07,687 INFO    SenderThread:1596 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-11-29 23:52:07,688 INFO    SenderThread:1596 [file_pusher.py:finish():175] shutting down file pusher
+2023-11-29 23:52:08,303 INFO    wandb-upload_0:1596 [upload_job.py:push():131] Uploaded file C:\Users\bruse\Downloads\서울과학기술대학교\캡스톤디자인\Chatbot_with_college_rules_documents\model\wandb\run-20231129_235157-mb87ib4z\files\config.yaml
+2023-11-29 23:52:08,387 INFO    wandb-upload_1:1596 [upload_job.py:push():131] Uploaded file C:\Users\bruse\Downloads\서울과학기술대학교\캡스톤디자인\Chatbot_with_college_rules_documents\model\wandb\run-20231129_235157-mb87ib4z\files\output.log
+2023-11-29 23:52:08,447 INFO    wandb-upload_3:1596 [upload_job.py:push():131] Uploaded file C:\Users\bruse\Downloads\서울과학기술대학교\캡스톤디자인\Chatbot_with_college_rules_documents\model\wandb\run-20231129_235157-mb87ib4z\files\wandb-summary.json
+2023-11-29 23:52:08,448 INFO    wandb-upload_2:1596 [upload_job.py:push():131] Uploaded file C:\Users\bruse\Downloads\서울과학기술대학교\캡스톤디자인\Chatbot_with_college_rules_documents\model\wandb\run-20231129_235157-mb87ib4z\files\requirements.txt
+2023-11-29 23:52:08,661 INFO    Thread-15 (_thread_body):1596 [sender.py:transition_state():613] send defer: 11
+2023-11-29 23:52:08,663 DEBUG   HandlerThread:1596 [handler.py:handle_request():146] handle_request: defer
+2023-11-29 23:52:08,663 INFO    HandlerThread:1596 [handler.py:handle_request_defer():172] handle defer: 11
+2023-11-29 23:52:08,664 DEBUG   SenderThread:1596 [sender.py:send_request():407] send_request: defer
+2023-11-29 23:52:08,665 INFO    SenderThread:1596 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-11-29 23:52:08,665 INFO    SenderThread:1596 [file_pusher.py:join():181] waiting for file pusher
+2023-11-29 23:52:08,666 INFO    SenderThread:1596 [sender.py:transition_state():613] send defer: 12
+2023-11-29 23:52:08,666 DEBUG   HandlerThread:1596 [handler.py:handle_request():146] handle_request: defer
+2023-11-29 23:52:08,666 INFO    HandlerThread:1596 [handler.py:handle_request_defer():172] handle defer: 12
+2023-11-29 23:52:08,667 DEBUG   SenderThread:1596 [sender.py:send_request():407] send_request: defer
+2023-11-29 23:52:08,668 INFO    SenderThread:1596 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-11-29 23:52:08,668 INFO    SenderThread:1596 [file_stream.py:finish():595] file stream finish called
+2023-11-29 23:52:09,130 INFO    SenderThread:1596 [file_stream.py:finish():599] file stream finish is done
+2023-11-29 23:52:09,130 INFO    SenderThread:1596 [sender.py:transition_state():613] send defer: 13
+2023-11-29 23:52:09,131 DEBUG   HandlerThread:1596 [handler.py:handle_request():146] handle_request: defer
+2023-11-29 23:52:09,131 INFO    HandlerThread:1596 [handler.py:handle_request_defer():172] handle defer: 13
+2023-11-29 23:52:09,131 DEBUG   SenderThread:1596 [sender.py:send_request():407] send_request: defer
+2023-11-29 23:52:09,131 INFO    SenderThread:1596 [sender.py:send_request_defer():609] handle sender defer: 13
+2023-11-29 23:52:09,131 INFO    SenderThread:1596 [sender.py:transition_state():613] send defer: 14
+2023-11-29 23:52:09,132 DEBUG   HandlerThread:1596 [handler.py:handle_request():146] handle_request: defer
+2023-11-29 23:52:09,132 DEBUG   SenderThread:1596 [sender.py:send():380] send: final
+2023-11-29 23:52:09,132 INFO    HandlerThread:1596 [handler.py:handle_request_defer():172] handle defer: 14
+2023-11-29 23:52:09,132 DEBUG   SenderThread:1596 [sender.py:send():380] send: footer
+2023-11-29 23:52:09,132 DEBUG   SenderThread:1596 [sender.py:send_request():407] send_request: defer
+2023-11-29 23:52:09,132 INFO    SenderThread:1596 [sender.py:send_request_defer():609] handle sender defer: 14
+2023-11-29 23:52:09,133 DEBUG   HandlerThread:1596 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-29 23:52:09,134 DEBUG   HandlerThread:1596 [handler.py:handle_request():146] handle_request: server_info
+2023-11-29 23:52:09,134 DEBUG   HandlerThread:1596 [handler.py:handle_request():146] handle_request: get_summary
+2023-11-29 23:52:09,134 DEBUG   SenderThread:1596 [sender.py:send_request():407] send_request: poll_exit
+2023-11-29 23:52:09,135 DEBUG   HandlerThread:1596 [handler.py:handle_request():146] handle_request: sampled_history
+2023-11-29 23:52:09,135 DEBUG   SenderThread:1596 [sender.py:send_request():407] send_request: server_info
+2023-11-29 23:52:09,135 DEBUG   HandlerThread:1596 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-29 23:52:09,139 DEBUG   HandlerThread:1596 [handler.py:handle_request():146] handle_request: job_info
+2023-11-29 23:52:09,438 DEBUG   SenderThread:1596 [sender.py:send_request():407] send_request: job_info
+2023-11-29 23:52:09,439 DEBUG   HandlerThread:1596 [handler.py:handle_request():146] handle_request: shutdown
+2023-11-29 23:52:09,439 INFO    HandlerThread:1596 [handler.py:finish():866] shutting down handler
+2023-11-29 23:52:10,153 INFO    WriterThread:1596 [datastore.py:close():294] close: C:\Users\bruse\Downloads\서울과학기술대학교\캡스톤디자인\Chatbot_with_college_rules_documents\model\wandb\run-20231129_235157-mb87ib4z\run-mb87ib4z.wandb
+2023-11-29 23:52:10,449 INFO    SenderThread:1596 [sender.py:finish():1534] shutting down sender
+2023-11-29 23:52:10,450 INFO    SenderThread:1596 [file_pusher.py:finish():175] shutting down file pusher
+2023-11-29 23:52:10,451 INFO    SenderThread:1596 [file_pusher.py:join():181] waiting for file pusher

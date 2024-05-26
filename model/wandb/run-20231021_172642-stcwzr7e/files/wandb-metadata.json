@@ -1,0 +1,45 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.11.2",
+    "heartbeatAt": "2023-10-21T08:26:44.064176",
+    "startedAt": "2023-10-21T08:26:42.667417",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\bruse\\Downloads\\\uc11c\uc6b8\uacfc\ud559\uae30\uc220\ub300\ud559\uad50\\\ucea1\uc2a4\ud1a4\ub514\uc790\uc778\\Chatbot_with_college_rules_documents\\model\\old_generator.py",
+    "codePathLocal": "old_generator.py",
+    "codePath": "model\\old_generator.py",
+    "git": {
+        "remote": "https://github.com/MJIsMinjuLee/Chatbot_with_college_rules_documents.git",
+        "commit": "4251b111f82864fff9934a8d8705612dcea732c4"
+    },
+    "email": "bruselee10@gmail.com",
+    "root": "C:/Users/bruse/Downloads/\uc11c\uc6b8\uacfc\ud559\uae30\uc220\ub300\ud559\uad50/\ucea1\uc2a4\ud1a4\ub514\uc790\uc778/Chatbot_with_college_rules_documents",
+    "host": "DESKTOP-1PRU88E",
+    "username": "bruse",
+    "executable": "C:\\Users\\bruse\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1600.0,
+        "min": 0.0,
+        "max": 1800.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1600.0,
+            "min": 0.0,
+            "max": 1800.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 232.84472274780273,
+            "used": 161.85002517700195
+        }
+    },
+    "memory": {
+        "total": 15.798858642578125
+    }
+}
